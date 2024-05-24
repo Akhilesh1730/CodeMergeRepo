@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="CustomNumberPickerStyle" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:textColorPrimary">#EE7F22</item>
+    </style>
+    <style name="TextAppearance.ToolbarTitleBold" parent="@style/TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textStyle">bold</item>
+    </style>
+        <style name="LaunchTheme" parent="Base.Theme.EMSApp">
+            <item name="android:windowBackground">@drawable/launch_background</item>
+        </style>
+        <style name="NormalTheme" parent="Base.Theme.EMSApp">
+            <item name="android:windowBackground">?android:colorBackground</item>
+        </style>
+    <style name="AppTheme.Picker" parent="Theme.MaterialComponents.Light.NoActionBar" >
+        <item name="android:textColorPrimary">@android:color/black</item>
+    </style>
+    <style name="AppBottomSheetTheme" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/Widget.App.BottomSheet.Modal</item>
+    </style>
+
+    <!-- Custom Bottom Sheet Widget Style -->
+    <style name="Widget.App.BottomSheet.Modal" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/attendence_bottom_sheet_fragment_shape</item>
+    </style>
+</resources>
